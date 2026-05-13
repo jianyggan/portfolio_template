@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=5">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-container">
+      <a href="#/" class="nav-logo" id="nav-logo">Portfolio</a>
+      <div class="nav-links" id="nav-links">
+        <a href="#/" class="nav-link" data-page="about">About</a>
+        <a href="#/goals" class="nav-link" data-page="goals">Goals</a>
+        <a href="#/skills" class="nav-link" data-page="skills">Skills</a>
+        <a href="#/achievements" class="nav-link" data-page="achievements">Achievements</a>
+        <a href="#/projects" class="nav-link" data-page="projects">Projects</a>
+        <a href="#/blog" class="nav-link" data-page="blog">Blog</a>
+        <a href="#/timeline" class="nav-link" data-page="timeline">Timeline</a>
+      </div>
+      <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+      </button>
+      <button class="lang-toggle" id="lang-toggle" aria-label="Switch language">
+        <span class="lang-icon" id="lang-icon">EN</span>
+      </button>
+      </div>
+      <!-- Mobile hamburger -->
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Container -->
+  <main class="page-container" id="page-container">
+
+    <!-- Page: About / Hero -->
+    <section class="page page-about active" data-page="about">
+      <div class="hero">
+        <div class="hero-bg">
+          <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-avatar-wrapper">
+            <div class="hero-avatar" id="hero-avatar">
+              <div class="avatar-placeholder">👤</div>
+            </div>
+            <div class="avatar-glow"></div>
+          </div>
+          <h1 class="hero-name" id="hero-name">Loading...</h1>
+          <div class="hero-titles" id="hero-title"></div>
+          <p class="hero-bio" id="hero-bio"></p>
+          <div class="hero-links" id="hero-links"></div>
+          <!-- Quick stats preview -->
+          <div class="hero-stats" id="hero-stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Goals -->
+    <section class="page page-goals" data-page="goals">
+      <div class="page-inner">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="Yearly Goals">Yearly Goals</h2>
+            <div class="goals-year-selector" id="goals-year-selector"></div>
+          </div>
+          <div class="goals-dashboard" id="goals-dashboard"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Skills -->
+    <section class="page page-skills" data-page="skills">
+      <div class="page-inner">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="Learning Paths">Learning Paths</h2>
+            <div class="overall-progress">
+              <div class="progress-ring-container">
+                <svg class="progress-ring" viewBox="0 0 120 120">
+                  <circle class="progress-ring-bg" cx="60" cy="60" r="52" />
+                  <circle class="progress-ring-fill" id="overall-progress-ring" cx="60" cy="60" r="52" />
+                </svg>
+                <div class="progress-ring-text" id="overall-progress-text">0%</div>
+              </div>
+              <span class="progress-label" data-i18n="Path Progress">Path Progress</span>
+            </div>
+          </div>
+          <div class="skills-tabs" id="skills-tabs"></div>
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Achievements -->
+    <section class="page page-achievements" data-page="achievements">
+      <div class="page-inner">
+        <div class="container">
+          <h2 class="section-title" data-i18n="Achievements">Achievements</h2>
+          <div class="achievements-tabs" id="achievements-tabs"></div>
+          <div class="achievements-content" id="achievements-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Projects -->
+    <section class="page page-projects" data-page="projects">
+      <div class="page-inner">
+        <div class="container">
+          <h2 class="section-title" data-i18n="Projects">Projects</h2>
+          <div class="projects-grid" id="projects-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Blog -->
+    <section class="page page-blog" data-page="blog">
+      <div class="page-inner">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="Blog">Blog</h2>
+            <div class="blog-tags-filter" id="blog-tags-filter"></div>
+          </div>
+          <div class="blog-grid" id="blog-grid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Blog Detail -->
+    <section class="page page-blog-detail" data-page="blog-detail">
+      <div class="page-inner">
+        <div class="container">
+          <a href="#/blog" class="blog-back-link" data-i18n="Back to Blog">Back to Blog</a>
+          <div class="blog-detail-header" id="blog-detail-header"></div>
+          <div class="blog-detail-content" id="blog-detail-content"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page: Timeline -->
+    <section class="page page-timeline" data-page="timeline">
+      <div class="page-inner">
+        <div class="container">
+          <h2 class="section-title" data-i18n="Journey Timeline">Journey Timeline</h2>
+          <div class="timeline-filters" id="timeline-filters"></div>
+          <div class="timeline-track-wrapper" id="timeline-track-wrapper">
+            <button class="timeline-scroll-hint left" id="tl-scroll-left">←</button>
+            <div class="timeline-track-scroll" id="timeline-track-scroll">
+              <div class="timeline-calendar" id="timeline-calendar"></div>
+            </div>
+            <button class="timeline-scroll-hint right" id="tl-scroll-right">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><span data-i18n="Built with ❤️">Built with ❤️</span> | <a href="https://github.com" target="_blank" data-i18n="View Template on GitHub">View Template on GitHub</a></p>
+  </footer>
+
+  <!-- Image Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">✕</button>
+      <img class="modal-image" id="modal-image" alt="Certificate" />
+      <p class="modal-caption" id="modal-caption"></p>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js?v=5"></script>
+</body>
+</html>
