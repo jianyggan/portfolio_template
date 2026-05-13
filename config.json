@@ -1,0 +1,337 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "titles": ["Site Reliability Engineer", "Kubestronaut"],
+    "avatar": "assets/img/avatar.jpg",
+    "bio": "Passionate SRE with expertise in building and maintaining resilient, scalable infrastructure. Committed to continuous learning and operational excellence.",
+    "links": {
+      "github": "https://github.com/yourname",
+      "linkedin": "https://linkedin.com/in/yourname",
+      "email": "your.email@example.com",
+      "twitter": ""
+    }
+  },
+  "skills": {
+    "paths": [
+      {
+        "name": "SRE Learning Path",
+        "icon": "🚀",
+        "year": "2026",
+        "categories": [
+          {
+            "name": "Observability",
+            "icon": "📊",
+            "color": "#00d2ff",
+            "items": [
+              { "name": "Prometheus & Grafana", "done": true },
+              { "name": "OpenTelemetry", "done": true },
+              { "name": "ELK Stack", "done": true },
+              { "name": "eBPF Tracing", "done": false },
+              { "name": "Distributed Tracing (Jaeger)", "done": false }
+            ]
+          },
+          {
+            "name": "Infrastructure as Code",
+            "icon": "🏗️",
+            "color": "#764ba2",
+            "items": [
+              { "name": "Terraform", "done": true },
+              { "name": "Ansible", "done": true },
+              { "name": "Pulumi", "done": false },
+              { "name": "CrossPlane", "done": false }
+            ]
+          },
+          {
+            "name": "Container & Orchestration",
+            "icon": "🐳",
+            "color": "#f093fb",
+            "items": [
+              { "name": "Docker", "done": true },
+              { "name": "Kubernetes", "done": true },
+              { "name": "Helm Charts", "done": true },
+              { "name": "Service Mesh (Istio)", "done": false },
+              { "name": "eBPF Networking (Cilium)", "done": false }
+            ]
+          },
+          {
+            "name": "CI/CD & GitOps",
+            "icon": "🔄",
+            "color": "#4facfe",
+            "items": [
+              { "name": "GitHub Actions", "done": true },
+              { "name": "ArgoCD", "done": true },
+              { "name": "Tekton Pipelines", "done": false },
+              { "name": "Flux CD", "done": false }
+            ]
+          },
+          {
+            "name": "Security & Compliance",
+            "icon": "🔒",
+            "color": "#43e97b",
+            "items": [
+              { "name": "Vault (Secrets Management)", "done": true },
+              { "name": "OPA / Gatekeeper", "done": false },
+              { "name": "Falco (Runtime Security)", "done": false },
+              { "name": "Supply Chain Security (Sigstore)", "done": false }
+            ]
+          },
+          {
+            "name": "Cloud Platforms",
+            "icon": "☁️",
+            "color": "#fa709a",
+            "items": [
+              { "name": "AWS", "done": true },
+              { "name": "GCP", "done": false },
+              { "name": "Azure", "done": false },
+              { "name": "Tencent Cloud", "done": true }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cybersecurity Path",
+        "icon": "🛡️",
+        "year": "2026",
+        "categories": [
+          {
+            "name": "Network Security",
+            "icon": "🌐",
+            "color": "#fa709a",
+            "items": [
+              { "name": "Firewall & IDS/IPS", "done": true },
+              { "name": "Zero Trust Architecture", "done": false },
+              { "name": "Network Segmentation", "done": false }
+            ]
+          },
+          {
+            "name": "Application Security",
+            "icon": "🛡️",
+            "color": "#667eea",
+            "items": [
+              { "name": "OWASP Top 10", "done": true },
+              { "name": "SAST / DAST Tools", "done": false },
+              { "name": "Web Application Firewall", "done": false }
+            ]
+          },
+          {
+            "name": "Incident Response",
+            "icon": "🚨",
+            "color": "#f5af19",
+            "items": [
+              { "name": "SIEM (Splunk / Sentinel)", "done": false },
+              { "name": "Digital Forensics Basics", "done": false },
+              { "name": "Threat Hunting", "done": false }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "achievements": {
+    "badges": [
+      {
+        "name": "Kubernetes Contributor",
+        "issuer": "CNCF",
+        "image": "badges/k8s-contributor.png",
+        "url": "",
+        "date": "2025-08"
+      },
+      {
+        "name": "AWS Community Builder",
+        "issuer": "Amazon",
+        "image": "badges/aws-community.png",
+        "url": "",
+        "date": "2025-06"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Solutions Architect Associate",
+        "abbr": "AWS SAA",
+        "issuer": "Amazon Web Services",
+        "image": "certs/aws-saa.png",
+        "credentialUrl": "https://www.credly.com/badges/example",
+        "credentialId": "ABC-123-XYZ",
+        "date": "2025-06",
+        "expiry": "2028-06"
+      },
+      {
+        "name": "Certified Kubernetes Administrator",
+        "abbr": "CKA",
+        "issuer": "CNCF / Linux Foundation",
+        "image": "certs/cka.png",
+        "credentialUrl": "",
+        "credentialId": null,
+        "date": "2026-01",
+        "expiry": "2029-01"
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "school": "Your University",
+        "logo": "assets/img/university-logo.png",
+        "year": "2018 - 2022",
+        "details": "Major in Computer Science, Minor in Mathematics"
+      }
+    ]
+  },
+  "goals": {
+    "years": [
+      {
+        "year": 2026,
+        "goals": [
+          {
+            "name": "Complete SRE Learning Path",
+            "icon": "🚀",
+            "color": "#667eea",
+            "progress": 72,
+            "target": "Finish all SRE path items by Dec 2026"
+          },
+          {
+            "name": "Earn 3 Certifications",
+            "icon": "📜",
+            "color": "#43e97b",
+            "progress": 66,
+            "target": "CKA ✓, AWS SAA ✓, CKS pending"
+          },
+          {
+            "name": "Publish 12 Blog Posts",
+            "icon": "✍️",
+            "color": "#fa709a",
+            "progress": 25,
+            "target": "3 of 12 published"
+          },
+          {
+            "name": "Contribute to 2 OSS Projects",
+            "icon": "🐙",
+            "color": "#f5af19",
+            "progress": 50,
+            "target": "1 of 2 contributed"
+          },
+          {
+            "name": "Launch Cybersecurity Path",
+            "icon": "🛡️",
+            "color": "#00d2ff",
+            "progress": 11,
+            "target": "Started Q2 2026"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "goals": [
+          {
+            "name": "Learn Kubernetes",
+            "icon": "☸️",
+            "color": "#4facfe",
+            "progress": 100,
+            "target": "Completed"
+          },
+          {
+            "name": "Get AWS SAA Certification",
+            "icon": "☁️",
+            "color": "#f093fb",
+            "progress": 100,
+            "target": "Completed Jun 2025"
+          },
+          {
+            "name": "Set up Home Lab",
+            "icon": "🖥️",
+            "color": "#43e97b",
+            "progress": 80,
+            "target": "K3s cluster running, monitoring pending"
+          }
+        ]
+      }
+    ]
+  },
+  "timeline": [
+    { "date": "2026-04", "type": "blog", "title": "Published K8s Monitoring Guide", "desc": "Comprehensive guide on Prometheus + Grafana stack", "icon": "✍️" },
+    { "date": "2026-01", "type": "certification", "title": "Earned CKA", "desc": "Certified Kubernetes Administrator", "icon": "🏆" },
+    { "date": "2025-11", "type": "project", "title": "Monitoring Stack v3", "desc": "Rebuilt with OpenTelemetry collector", "icon": "📊" },
+    { "date": "2025-08", "type": "badge", "title": "Kubernetes Contributor", "desc": "Recognized by CNCF", "icon": "🏅" },
+    { "date": "2025-06", "type": "certification", "title": "Earned AWS SAA", "desc": "AWS Solutions Architect Associate", "icon": "🏆" },
+    { "date": "2025-04", "type": "project", "title": "K8s Operator Toolkit", "desc": "Open-sourced operator framework in Go", "icon": "🚀" },
+    { "date": "2025-03", "type": "project", "title": "Infra Automation v2", "desc": "Terraform modules for multi-cloud", "icon": "🚀" },
+    { "date": "2025-02", "type": "blog", "title": "Terraform Multi-Cloud Tips", "desc": "Lessons from managing 3 cloud providers", "icon": "✍️" },
+    { "date": "2025-01", "type": "career", "title": "Promoted to Senior SRE", "desc": "Leading reliability initiatives across 3 teams", "icon": "🌟" },
+    { "date": "2025-01", "type": "badge", "title": "AWS Community Builder", "desc": "Recognized by Amazon", "icon": "🏅" },
+    { "date": "2024-09", "type": "career", "title": "Joined SRE Team", "desc": "Transitioned to Site Reliability Engineering", "icon": "💼" },
+    { "date": "2024-06", "type": "certification", "title": "Terraform Associate", "desc": "HashiCorp Certified Terraform Associate", "icon": "🏆" },
+    { "date": "2024-03", "type": "project", "title": "CI/CD Pipeline Overhaul", "desc": "Migrated from Jenkins to GitHub Actions + ArgoCD", "icon": "🔄" },
+    { "date": "2023-08", "type": "career", "title": "Started DevOps Role", "desc": "First infrastructure-focused position", "icon": "💼" },
+    { "date": "2022-06", "type": "education", "title": "Graduated BSc CS", "desc": "Bachelor of Computer Science", "icon": "🎓" }
+  ],
+  "projects": {
+    "mode": "manual",
+    "githubUsername": "",
+    "repos": [
+      {
+        "name": "infra-automation",
+        "url": "https://github.com/yourname/infra-automation",
+        "desc": "Terraform modules for multi-cloud infrastructure provisioning. Supports AWS, GCP, and Tencent Cloud.",
+        "tags": ["Terraform", "AWS", "IaC"],
+        "stars": 42,
+        "language": "HCL",
+        "languageColor": "#844FBA"
+      },
+      {
+        "name": "monitoring-stack",
+        "url": "https://github.com/yourname/monitoring-stack",
+        "desc": "Production-ready Prometheus + Grafana + Alertmanager stack with Helm charts and auto-scaling.",
+        "tags": ["Kubernetes", "Prometheus", "Helm"],
+        "stars": 28,
+        "language": "Go",
+        "languageColor": "#00ADD8"
+      },
+      {
+        "name": "k8s-operator-toolkit",
+        "url": "https://github.com/yourname/k8s-operator-toolkit",
+        "desc": "A toolkit for building Kubernetes operators with built-in health checks and CRD management.",
+        "tags": ["Kubernetes", "Operator", "Go"],
+        "stars": 15,
+        "language": "Go",
+        "languageColor": "#00ADD8"
+      },
+      {
+        "name": "portfolio-template",
+        "url": "https://github.com/yourname/portfolio-template",
+        "desc": "This portfolio! A config-driven, zero-build template for engineers.",
+        "tags": ["HTML", "CSS", "JS"],
+        "stars": 5,
+        "language": "JavaScript",
+        "languageColor": "#f1e05a"
+      }
+    ]
+  },
+  "blog": {
+    "postsDir": "blog/",
+    "posts": [
+      {
+        "title": "Building a Production-Ready Kubernetes Monitoring Stack",
+        "date": "2026-04-15",
+        "summary": "A comprehensive guide to setting up Prometheus, Grafana, and Alertmanager on Kubernetes with best practices for alerting and dashboarding.",
+        "tags": ["Kubernetes", "Observability", "Prometheus"],
+        "file": "blog/2026-04-15-k8s-monitoring.md",
+        "readTime": "8 min"
+      },
+      {
+        "title": "Terraform Multi-Cloud: Lessons from the Trenches",
+        "date": "2026-02-20",
+        "summary": "What I learned managing infrastructure across AWS, GCP, and Tencent Cloud using Terraform modules.",
+        "tags": ["Terraform", "IaC", "Cloud"],
+        "file": "blog/2026-02-20-terraform-multicloud.md",
+        "readTime": "6 min"
+      },
+      {
+        "title": "My CKA Exam Journey: Tips and Study Plan",
+        "date": "2026-01-10",
+        "summary": "How I prepared for the Certified Kubernetes Administrator exam, including resources, lab setup, and time management.",
+        "tags": ["Kubernetes", "Certification", "Career"],
+        "file": "blog/2026-01-10-cka-journey.md",
+        "readTime": "5 min"
+      }
+    ]
+  }
+}
